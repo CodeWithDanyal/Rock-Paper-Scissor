@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="nav">
+      <h2>Rock Paper Scissor</h2>
+      <p class="navbar-text">
+        Built & Deployed by
+        <a href="https://www.linkedin.com/in/danyal-khan-150934323/it" target="_blank"
+          >Danyal</a
+        >
+      </p>
+    </div>
+
+    <!-- Choices -->
+    <div class="choices">
+      <p class="choices_msg">Play Your Move!</p>
+      <div class="choice" id="rock">
+        <img src="images/rock.png" alt="" />
+        <p class="img_p">Rock</p>
+      </div>
+      <div class="choice" id="paper">
+        <img src="images/paper.png" alt="" />
+        <p class="img_p">Paper</p>
+      </div>
+      <div class="choice" id="scissor">
+        <img src="images/scissors.png" alt="" />
+        <p class="img_p">Scissors</p>
+      </div>
+    </div>
+
+    <!-- Result & Score  -->
+    <div class="third_sec">
+      <!-- msgBox -->
+      <div class="msg_box">
+        <p class="win_msg">Result</p>
+      </div>
+
+      <!-- ScoreCard -->
+      <div class="score_card">
+        <div class="score">
+          <p>YourScore => <span class="user_score">0</span></p>
+        </div>
+        <div class="score">
+          <p>BotScore => <span class="bot_score">0</span></p>
+        </div>
+        <div class="score">
+          <p>Draw => <span class="draw_score">0</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Result & history buttons -->
+    <div class="res_his">
+      <h4 class="reset">Reset</h4>
+      <h4 class="history">History</h4>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
